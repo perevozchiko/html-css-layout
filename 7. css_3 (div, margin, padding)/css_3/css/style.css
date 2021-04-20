@@ -31,10 +31,10 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 
 .example-block{
-    padding: 10%;
+    margin: 10px -10px;
     border: 1px solid #000;
 }
 
 .example-string{
-    
+    /*padding and margin not work with string*/
 }
