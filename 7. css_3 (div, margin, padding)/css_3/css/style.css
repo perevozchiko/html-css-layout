@@ -31,15 +31,16 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 
 .example-block{
-    min-width: 500px;
+    height: 50%;
+    min-height: 20px;
     border: 1px solid #000;
 }
 
 .example-string{
-    /*max-width, width, padding and margin not work with string*/
+    /*height, max-width, width, padding and margin 
+    not work with string*/
 }
 
 .example-image{
-    width: 100%;
-    min-width: 300px;
+    height: 20px;
 }
