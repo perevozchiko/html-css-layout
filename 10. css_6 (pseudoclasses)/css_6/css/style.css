@@ -1,0 +1,170 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+/*--------------------*/
+
+body {
+	padding: 30px;
+}
+
+.block {
+	margin: 0px 0px 30px 0px;
+}
+
+.block p {
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0px 0px 20px 0px;
+}
+
+.block p:active {
+	color: red;
+}
+.link {
+	color: red;
+}
+
+.link:active {
+	color: yellow;
+}
+
+.link:visited {
+	color: green;
+}
+
+.link:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.textinput {
+	border: 1px solid #666;
+	height: 50px;
+	width: 300px;
+	font-size: 18px;
+	padding: 0px 15px;
+	margin-bottom: 10px;
+}
+.textbutton {
+	display: block;
+	width: 300px;
+	height: 50px;
+	background-color: #666;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.textinput:focus {
+	box-shadow: 0px 0px 50px #666;
+}
+
+.list {
+}
+
+.list li {
+	font-size: 24px;
+	margin: 0px 0px 15px 0px;
+}
+
+.list li:first-child {
+	color: green;
+}
+
+.list li:last-child {
+	font-weight: 700;
+	color: yellow;
+	background-color: rgba(61, 4, 4, 0.7);
+	padding: 20px;
+}
+
+.list li:nth-child(2) {
+	text-decoration: underline;
+}
+
+.list li:nth-child(even) {
+	text-transform: uppercase;
+}
+
+.textbutton:hover {
+	color: yellow;
+	background-color: blue;
+}
+
+.textbutton:active {
+	color: coral;
+	background-color: indigo;
+}
