@@ -74,3 +74,33 @@ h6 {
 	font-weight: inherit;
 }
 /*--------------------*/
+
+.btn {
+	display: block;
+	height: 30px;
+	width: 150px;
+	margin: 20px 20px 20px 40px;
+	border-radius: 15px;
+	background-color: rgb(3, 211, 238);
+	color: white;
+}
+
+.btn:hover {
+	background-color: rgb(14, 58, 5);
+}
+
+.btn:active {
+	background-color: rgb(71, 71, 71);
+}
+
+.inputtext {
+	height: 30px;
+	width: 200px;
+	border: 1px solid rgba(173, 167, 167, 0.5);
+	margin: 0px 0px 0px 40px;
+}
+
+.inputtext:focus {
+	box-shadow: 0 0 15px rgba(40, 210, 252, 0.5);
+	border: 1px solid rgba(40, 209, 252, 0.5);
+}
