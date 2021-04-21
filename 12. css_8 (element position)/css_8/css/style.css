@@ -74,3 +74,36 @@ h6 {
 	font-weight: inherit;
 }
 /*--------------------*/
+
+.block {
+	border: 5px solid red;
+	max-width: 800px;
+	margin: 0 auto;
+	height: 800px;
+}
+
+.block div {
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.block__1 {
+	background-color: green;
+}
+
+.block__2 {
+	background-color: aqua;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	z-index: 1;
+}
+
+.block__3 {
+	background-color: brown;
+	color: white;
+	position: relative;
+	z-index: 1;
+}
