@@ -1,0 +1,52 @@
+// File null style css
+@import "_nullstyle.scss";
+
+$fz: 20px;
+$color_1: #fff;
+$color_2: #444;
+
+// %tplborder {
+//    border-bottom: 5px dashed red;
+// }
+
+// Шаблон 1
+.tplborder {
+   border-bottom: 5px dashed red;
+}
+
+@mixin fontz($f, $c) {
+   font-size: $f;
+   color: $c;
+}
+
+.block {
+   width: 300px / 960px * 100%;
+   background-color: #666;
+   line-height: 60px;
+   padding: 30px;
+   > p {
+      color: red;
+   }
+}
+
+.link {
+   color: blue;
+   text-decoration: underline;
+   font-size: $fz;
+
+   .block & {
+      font-size: $fz;
+   }
+
+   &:hover {
+      color: green;
+   }
+
+   @extend .tplborder;
+}
+
+.link-2 {
+   @include fontz(25px, green);
+   @extend .tplborder;
+   border-bottom: 5px dashed black;
+}
