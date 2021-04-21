@@ -79,7 +79,7 @@ h6 {
 	border: 5px solid red;
 	max-width: 800px;
 	margin: 0 auto;
-	height: 800px;
+	height: 1500px;
 }
 
 .block div {
@@ -95,15 +95,15 @@ h6 {
 
 .block__2 {
 	background-color: aqua;
-	position: relative;
-	top: 20px;
-	left: 20px;
-	z-index: 1;
+	position: sticky;
+	top: 0;
 }
 
 .block__3 {
 	background-color: brown;
 	color: white;
-	position: relative;
-	z-index: 1;
+}
+
+.block__4 {
+	background-color: rgb(128, 126, 0);
 }
