@@ -1,0 +1,36 @@
+// File null style css
+@import "_nullstyle.scss";
+
+.wrapper {
+   height: 100%;
+   overflow: hidden;
+   min-height: 100%;
+   padding: 50px;
+}
+.block {
+   &__row {
+      display: flex;
+      flex-wrap: wrap-reverse;
+
+      border: 20px solid #ece89d;
+      margin: 0px 0px 20px 0px;
+   }
+
+   &__column {
+      border: 20px solid #5e5373;
+   }
+
+   &__item {
+      background-color: #18b5a4;
+      padding: 50px;
+      font-size: 50px;
+      color: #fff;
+      font-weight: 700;
+      // height: 10px;
+   }
+}
+
+// .middle {
+//    height: 100%;
+//    font-size: 80px;
+// }
