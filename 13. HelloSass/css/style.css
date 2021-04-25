@@ -90,6 +90,7 @@ h6 {
 /*--------------------*/
 .tplborder, .link, .link-2 {
   border-bottom: 5px dashed red;
+  background-color: #fff;
 }
 
 .block {

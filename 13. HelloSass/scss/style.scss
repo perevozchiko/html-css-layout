@@ -9,9 +9,10 @@ $color_2: #444;
 //    border-bottom: 5px dashed red;
 // }
 
-// Шаблон 1
+// Шаблон 1 mixin
 .tplborder {
    border-bottom: 5px dashed red;
+   background-color: $color_1;
 }
 
 @mixin fontz($f, $c) {
