@@ -104,8 +104,13 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   border: 20px solid #ece89d;
   margin: 0px 0px 20px 0px;
+  height: 800px;
 }
 
 .block__item {
@@ -119,11 +124,4 @@ h6 {
 
 .block__column {
   border: 20px solid #5e5373;
-  -ms-flex-preferred-size: 500px;
-      flex-basis: 500px;
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
 }

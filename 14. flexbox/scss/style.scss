@@ -1,5 +1,5 @@
 // File null style css
-@import "_nullstyle.scss";
+@import "_reset.scss";
 
 .wrapper {
    height: 100%;
@@ -17,10 +17,13 @@
    &__row {
       display: flex;
       // flex-wrap: wrap-reverse;
-      // align-items: center;
+      // align-items: flex-end; //default stretch
+      // justify-content: space-between;
+      flex-direction: column-reverse; // row and row-reverse column
 
       border: 20px solid #ece89d;
       margin: 0px 0px 20px 0px;
+      height: 800px;
    }
    &__item {
       background-color: #18b5a4;
@@ -33,17 +36,19 @@
    }
    &__column {
       border: 20px solid #5e5373;
-      flex-basis: 500px;
-      flex-grow: 0;
-      flex-shrink: 1;
+      // flex-basis: 500px; // size flex element default auto
+      // flex-grow: 0; // 0 не разрешено увеличиваться, 1 разрешено увеличиваться до flex-basis
+      // flex-shrink: 0; // если 0 то не будут становиться меньше flex-basis
+      // flex: 0 1 auto; // grow shrink basis
 
       &_1 {
-         // align-self: flex-start;
+         // align-self: center;
          // order: 3;
       }
 
       &_2 {
          // order: 2;
+         // flex: 1 1 auto; второй элемент разрешено увеличиваться по максимуму
       }
 
       &_3 {
