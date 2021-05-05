@@ -144,6 +144,74 @@ body {
    }
 }
 
+.vertical {
+   padding: 50px;
+   &_btn {
+      display: block;
+      background-color: #fff;
+      color: #445162;
+      margin: 0 20px 20px 20px;
+      text-align: center;
+      border-radius: 3px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 18px;
+   }
+
+   &__title {
+      text-align: center;
+      margin-bottom: 30px;
+   }
+
+   &__body {
+      width: 990px;
+      margin: 0 auto;
+   }
+
+   &__row {
+      display: flex;
+      margin: 0px -22.5px;
+   }
+
+   &__column {
+      flex: 0 1 33.333%;
+      margin: 0px 22.5px;
+   }
+
+   &__item {
+      background-color: #445162;
+      border: solid 1px #445162;
+      border-radius: 7px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+   }
+
+   &__subtitle {
+      color: #fff;
+      font-size: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 18px 0 15px 0;
+   }
+
+   &__label {
+      color: #445162;
+      font-size: 30px;
+      background-color: #fff;
+      text-align: center;
+      padding: 24px 0 24px 0;
+   }
+
+   &__text {
+      color: #fff;
+      flex: 1 1 auto;
+      padding: 20px;
+      font-size: 18px;
+      line-height: 30px;
+   }
+}
+
 .title {
    color: #445161;
    font-size: 22px;
