@@ -186,6 +186,70 @@ body {
   margin: 0;
 }
 
+.columns {
+  background-color: #f5f5f5;
+  padding: 50px;
+}
+
+.columns__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.columns__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.columns__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 -8px;
+}
+
+.item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  margin-bottom: 30px;
+  padding: 0 8px;
+}
+
+.item__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item__image {
+  background-color: #445161;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 200px;
+          flex: 0 0 200px;
+  height: 153px;
+}
+
+.item__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding-left: 15px;
+}
+
+.item__title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.item__text {
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .title {
   color: #445161;
   font-size: 22px;
