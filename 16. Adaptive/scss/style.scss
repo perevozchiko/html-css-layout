@@ -1,6 +1,10 @@
 // File null style css
 @import "_reset.scss";
 
+body {
+   min-width: 1200px;
+}
+
 .header {
    background-color: rgb(82, 44, 122);
 
@@ -9,6 +13,7 @@
       justify-content: space-between;
       align-items: center;
       height: 60px;
+      color: white;
    }
 
    &__logo {
@@ -23,8 +28,9 @@
 }
 
 .container {
-   width: 1170px;
+   width: 1200px;
    margin: 0 auto;
+   padding: 0 15px;
 }
 .menu {
    display: flex;
@@ -32,7 +38,7 @@
 .item {
    height: 12px;
    width: 60px;
-   margin: 0px 0px 0px 20px;
+   margin: 0px 20px 0px 0px;
    background-color: yellow;
 }
 
@@ -42,27 +48,53 @@
 
 .three-column {
    &__row {
+      display: flex;
+      margin: 0px 0px 30px 0px;
    }
 
    &__column {
+      background-color: rgb(1, 148, 111);
+      padding: 10px;
+      margin: 0px 30px 0px 0px;
+   }
+
+   &__column:last-child {
+      margin: 0;
    }
 
    &__image {
+      height: 200px;
+      background-color: yellow;
+      margin: 0px 0px 10px 0px;
    }
 
    &__text {
+      color: white;
+      font-size: 20px;
    }
 }
 .two-column {
    &__row {
+      display: flex;
    }
 
    &__column {
+      background-color: rgb(1, 148, 111);
+      padding: 10px;
+      margin: 0px 30px 0px 0px;
+   }
+   &__column:last-child {
+      margin: 0;
    }
 
    &__image {
+      height: 200px;
+      background-color: yellow;
+      margin: 0px 0px 10px 0px;
    }
 
    &__text {
+      color: white;
+      font-size: 20px;
    }
 }
