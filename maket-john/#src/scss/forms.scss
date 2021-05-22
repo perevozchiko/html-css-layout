@@ -19,9 +19,21 @@
 //<BUTTONS (a.btn+tab)>====================================================================================================
 .btn {
 	display: inline-flex;
-	padding: 0px 0px;
+	padding: 0px 20px;
+	height: 47px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 29 / 20 * 100%;
+	color: #fff;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: #ff6464;
+	border-radius: 2px;
+	transition: all 0.3s ease 0s;
 	@media (min-width: 992px) {
 		&:hover {
+			background-color: rgb(224, 97, 97);
 		}
 	}
 	&._fw {

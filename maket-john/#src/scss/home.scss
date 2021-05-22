@@ -1,3 +1,42 @@
 //====================================================================================================
+.hello {
+   padding: 38px 0px 70px 0px;
+
+   &__container {
+      display: flex;
+   }
+
+   &__content {
+      padding: 18px 110px 0px 0px;
+      align-items: flex-start;
+      flex: 1 1 auto;
+      *:last-child {
+         margin-bottom: 0;
+      }
+   }
+
+   &__title {
+      margin: 0px 0px 25px 0px;
+   }
+
+   &__text {
+      margin: 0px 0px 35px 0px;
+   }
+
+   &__btn {
+      margin: 0px 0px 25px 0px;
+   }
+
+   &__avatar {
+      flex: 0 0 243px;
+      height: 243px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: -5px 13px 0px 0px #edf7fa;
+      img {
+         max-width: 100%;
+      }
+   }
+}
 
 //====================================================================================================
