@@ -1,5 +1,32 @@
-footer{}
-//====================================================================================================
+.footer {
+   text-align: center;
+   min-height: 182px;
+   display: flex;
+   align-items: center;
+   &_copy {
+   }
+}
+
+.social {
+   display: flex;
+   justify-content: center;
+   margin: 0px 0px 26px 0px;
+   &__item {
+      margin: 0px 35px 0px 0px;
+      color: inherit;
+      font-size: 30px;
+      &:last-child {
+         margin-right: 0;
+      }
+      transition: color 0.5s ease 0s;
+      @media (min-width: $md2+px) {
+         &:hover {
+            color: rgb(160, 46, 46);
+         }
+      }
+   }
+}
 
 //====================================================================================================
 
+//====================================================================================================
